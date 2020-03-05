@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>
+      Tab Two
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+ 
+<ion-content>
+
+  <ion-item>
+    <ion-label>Select Basic User</ion-label>
+    <ionic-selectable
+      [(ngModel)]="selected_user" [items]="users"
+      itemValueField="id" itemTextField="name">
+    </ionic-selectable>
+  </ion-item>
+ 
+</ion-content>

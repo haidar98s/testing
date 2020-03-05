@@ -1,0 +1,140 @@
+.bg{
+    --ion-background-color: #0F4C81 !important;
+  }
+  #container {
+  
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 18px;
+  }
+  
+  #container strong {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  
+  #container a {
+    text-decoration: none;
+  }
+  
+  ion-content ion-toolbar {
+    --background: translucent;
+  }
+  
+  .txt-login{
+    color: #fff;
+    margin-top: 120px;
+  }
+  .jdl-txt{
+    font-size: 30px;
+    font-family: "Open Sans";
+    font-weight: bold;
+  }
+  
+  .sub-txt{
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: "Open Sans";
+    opacity: 50%;
+  }
+  
+  .card{
+    padding: 40px;
+    background-color: #123656;
+    border-radius: 10px;
+  }
+  
+  .form{
+    color: #fff;
+  }
+  
+  ion-label{
+    opacity: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .input{
+    --padding-start:0px ;
+    --padding-bottom:0px ;
+    margin-top: 5px;
+  }
+  
+  .btn{
+    --border-radius: 10px;
+    --background:#0F4C81;
+    height: 50px;
+    }
+  
+  .paddles{
+    padding: 0px !important;
+  }
+  
+  .toggle{
+    padding: 3px 0px;
+  }
+  
+  .toggle p{
+    margin-block-start: 2px;
+    margin-left: 10px;
+    color: #fff;
+  }
+  
+  .txt-pas{
+  text-align: right;
+  text-decoration: underline;
+  padding: 0px 0px;
+  margin-block-start: 6px;
+  color: #fff;
+  }
+  .txt-sub{
+    color: #fff;
+    text-align: center;
+    opacity: 50%;
+  }
+  .mt-20{
+    margin-top: 30px;
+  }
+  
+  .mt-10{
+  margin-top: 15px;
+  }
+  
+  .mt-5{
+    margin-top: 10px;
+  }
+
+  .searchbar{
+    --ion-background-color: #123656;
+    --icon-color: #fff;
+    color: #fff;
+    padding-inline-start: 0px;
+    padding-inline-end: 0px;
+  }
+
+  .list p{
+    color: #fff;
+  }
+
+  .list .listc{
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    --ion-background-color: #123656;
+    border-radius: 15px;
+    color: #fff;
+  }
+
+  .avatar {
+    vertical-align: middle;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: #fff;
+    margin-top: 5px;
+  }
+
+  .r{
+    text-align: right;
+    margin-right: 10px;
+  }

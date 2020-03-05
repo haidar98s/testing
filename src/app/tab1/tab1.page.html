@@ -1,0 +1,29 @@
+
+<ion-content class="bg">
+  <div id="container">
+    <div class="txt-login">
+      <h2 class="jdl-txt">Data Karyawan</h2>
+        <ion-searchbar class="searchbar"></ion-searchbar>
+    </div>
+
+    <div class="list">
+      <p class="mt-20">List karyawan</p>
+      <ion-card *ngFor="let item of karyawan" class="listc">
+        <ion-grid >
+          <ion-row>
+            <ion-col size="3">
+              <img class="avatar" src="../assets/img/profile.png"/>
+            </ion-col>
+            <ion-col>
+              <p>{{ item.name }}</p>
+              <p>{{ item.job }}</p>
+            </ion-col>
+            <ion-col routerLink="{{ item.link}}" class="mt-20 r" size="3">
+              more
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-card>
+    </div>
+  </div>
+</ion-content>

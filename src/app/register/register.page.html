@@ -1,0 +1,39 @@
+
+<ion-content class="bg" [fullscreen]="true">
+  <div id="container">
+    <div class="txt-login">
+      <h2 class="jdl-txt">Buat Akun<br>Baru</h2>
+      <p class="sub-txt">Daftar untuk melanjutkan</p>
+    </div>
+  
+    <ion-card class="card">
+      <form #form="ngForm" (ngSubmit)="register(form)" method="post">
+        <div class="form">
+            <ion-label position="fixed">Nama Depan</ion-label>
+            <ion-input ngModel name="fname" class="input"></ion-input>
+            <hr>
+          <div class="mt-20">
+            <ion-label position="fixed">Nama Belakang</ion-label>
+            <ion-input ngModel name="lname" class="input"></ion-input>
+            <hr>
+          </div>
+          <div class="mt-20">
+            <ion-label position="fixed">Username</ion-label>
+            <ion-input type="email" ngModel name="email" class="input"></ion-input>
+            <hr>
+          </div>
+          <div class="mt-20">
+            <ion-label position="fixed">Password</ion-label>
+            <ion-input type="password" ngModel name="password" class="input"></ion-input>
+            <hr>
+          </div>
+        </div>
+          <ion-button type="submit" routerLink="/" expand="block" class="mt-20 btn" >Daftar</ion-button>
+          <p class="txt-sub">Sudah punya akun?</p>
+          <ion-button expand="block" routerLink="/" color="primary" class="btn">Masuk</ion-button>
+      </form>
+    </ion-card>
+  </div>
+    
+</ion-content>
+

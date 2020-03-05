@@ -1,0 +1,8 @@
+{
+  "name": "karywn",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}
